@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|c:\\users\\toufi\\documents\\projeto__pim3\\projeto__pim3\\uc_cadastrar_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|solutionrelative:projeto__pim3\\uc_cadastrar_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|c:\\users\\toufi\\documents\\projeto__pim3\\projeto__pim3\\uc_cadastrar_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|solutionrelative:projeto__pim3\\uc_cadastrar_pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|c:\\users\\toufi\\documents\\projeto__pim3\\projeto__pim3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|solutionrelative:projeto__pim3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\projeto__pim3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|solutionrelative:projeto__pim3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|c:\\users\\toufi\\documents\\projeto__pim3\\projeto__pim3\\properties\\tela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|solutionrelative:projeto__pim3\\properties\\tela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\projeto__pim3\\properties\\tela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B8FECE9-68D2-4140-A696-DCF272DBC232}|PROJETO__PIM3\\PROJETO__PIM3.csproj|solutionrelative:projeto__pim3\\properties\\tela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_Cadastrar_Pessoa.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs",
+              "RelativeDocumentMoniker": "PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs [Projeto]",
+              "RelativeToolTip": "PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:45:16.652Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Login.cs",
+              "RelativeDocumentMoniker": "PROJETO__PIM3\\Login.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Login.cs",
+              "RelativeToolTip": "PROJETO__PIM3\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:33:06.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Login.cs",
+              "RelativeDocumentMoniker": "PROJETO__PIM3\\Login.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Login.cs [Projeto]",
+              "RelativeToolTip": "PROJETO__PIM3\\Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:33:02.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_Cadastrar_Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs",
+              "RelativeDocumentMoniker": "PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs",
+              "RelativeToolTip": "PROJETO__PIM3\\UC_Cadastrar_Pessoa.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:16:42.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tela_Principal.cs",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Properties\\Tela_Principal.cs",
+              "RelativeDocumentMoniker": "PROJETO__PIM3\\Properties\\Tela_Principal.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Properties\\Tela_Principal.cs",
+              "RelativeToolTip": "PROJETO__PIM3\\Properties\\Tela_Principal.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAlwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:47:00.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tela_Principal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Properties\\Tela_Principal.cs",
+              "RelativeDocumentMoniker": "PROJETO__PIM3\\Properties\\Tela_Principal.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\Properties\\Tela_Principal.cs [Projeto]",
+              "RelativeToolTip": "PROJETO__PIM3\\Properties\\Tela_Principal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:42:56.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
