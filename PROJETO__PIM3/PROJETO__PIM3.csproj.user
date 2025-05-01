@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Biblioteca.cs">
+    <Compile Update="Telas_Usuario\Top10_Livros_Usuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas_Usuario\UC_Biblioteca_Usuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas_Usuario\UC_Categorias_Usuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tela_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UC_Biblioteca.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UC_Cadastro_Cliente.cs">

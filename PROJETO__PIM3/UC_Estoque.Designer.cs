@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Estoque));
             dataGridView1 = new DataGridView();
-            pictureBox1 = new PictureBox();
-            label4 = new Label();
             IdLivro = new DataGridViewTextBoxColumn();
             TituloDeLIvro = new DataGridViewTextBoxColumn();
             Categoria = new DataGridViewTextBoxColumn();
             Autor = new DataGridViewTextBoxColumn();
             Editora = new DataGridViewTextBoxColumn();
             AnoDePublicacao = new DataGridViewTextBoxColumn();
+            pictureBox1 = new PictureBox();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -51,26 +51,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1371, 512);
             dataGridView1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(16, 13);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(118, 84);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 54;
-            pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
-            label4.Location = new Point(167, 56);
-            label4.Name = "label4";
-            label4.Size = new Size(130, 41);
-            label4.TabIndex = 53;
-            label4.Text = "Estoque";
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // IdLivro
             // 
@@ -117,6 +98,26 @@
             AnoDePublicacao.Name = "AnoDePublicacao";
             AnoDePublicacao.Width = 125;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(16, 13);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(118, 84);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 54;
+            pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            label4.Location = new Point(167, 56);
+            label4.Name = "label4";
+            label4.Size = new Size(130, 41);
+            label4.TabIndex = 53;
+            label4.Text = "Estoque";
+            // 
             // UC_Estoque
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -126,6 +127,7 @@
             Controls.Add(dataGridView1);
             Name = "UC_Estoque";
             Size = new Size(1371, 661);
+            Load += UC_Estoque_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

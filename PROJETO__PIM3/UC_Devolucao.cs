@@ -67,6 +67,11 @@ namespace PROJETO__PIM3
             }
 
         }
+
+        private void UC_Devolucao_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

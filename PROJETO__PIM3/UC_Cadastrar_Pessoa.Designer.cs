@@ -46,8 +46,8 @@
             btn_cadastrar_cad_pess = new Button();
             btn_sair_cad_pess = new Button();
             pictureBox2 = new PictureBox();
-            btn_voltar_cad_pess = new Button();
-            lbl_resultado_cadastro = new Label();
+            txb_senha_cad_pess = new TextBox();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -55,7 +55,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.user1;
-            pictureBox1.Location = new Point(882, 154);
+            pictureBox1.Location = new Point(940, 147);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(150, 121);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -74,7 +74,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(1001, 325);
+            label2.Location = new Point(1080, 325);
             label2.Name = "label2";
             label2.Size = new Size(120, 20);
             label2.TabIndex = 2;
@@ -83,7 +83,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(764, 420);
+            label3.Location = new Point(764, 438);
             label3.Name = "label3";
             label3.Size = new Size(143, 20);
             label3.TabIndex = 3;
@@ -92,7 +92,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(764, 532);
+            label4.Location = new Point(764, 559);
             label4.Name = "label4";
             label4.Size = new Size(52, 20);
             label4.TabIndex = 4;
@@ -101,7 +101,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(1001, 532);
+            label5.Location = new Point(1080, 559);
             label5.Name = "label5";
             label5.Size = new Size(66, 20);
             label5.TabIndex = 5;
@@ -110,11 +110,11 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(1001, 420);
+            label6.Location = new Point(1080, 438);
             label6.Name = "label6";
-            label6.Size = new Size(33, 20);
+            label6.Size = new Size(182, 20);
             label6.TabIndex = 6;
-            label6.Text = "CPF";
+            label6.Text = "CPF (deve ter 11 numeros)";
             // 
             // txb_codigo_funcionario_cad_pess
             // 
@@ -125,42 +125,42 @@
             // 
             // txb_nome_cad_pess
             // 
-            txb_nome_cad_pess.Location = new Point(1001, 358);
+            txb_nome_cad_pess.Location = new Point(1080, 358);
             txb_nome_cad_pess.Name = "txb_nome_cad_pess";
             txb_nome_cad_pess.Size = new Size(174, 27);
             txb_nome_cad_pess.TabIndex = 8;
             // 
             // txb_data_nacimento_cad_pess
             // 
-            txb_data_nacimento_cad_pess.Location = new Point(774, 465);
+            txb_data_nacimento_cad_pess.Location = new Point(774, 483);
             txb_data_nacimento_cad_pess.Name = "txb_data_nacimento_cad_pess";
             txb_data_nacimento_cad_pess.Size = new Size(174, 27);
             txb_data_nacimento_cad_pess.TabIndex = 9;
             // 
             // txb_cpf_cad_pess
             // 
-            txb_cpf_cad_pess.Location = new Point(1001, 465);
+            txb_cpf_cad_pess.Location = new Point(1080, 483);
             txb_cpf_cad_pess.Name = "txb_cpf_cad_pess";
             txb_cpf_cad_pess.Size = new Size(174, 27);
             txb_cpf_cad_pess.TabIndex = 10;
             // 
             // txb_email_cad_pess
             // 
-            txb_email_cad_pess.Location = new Point(774, 580);
+            txb_email_cad_pess.Location = new Point(774, 607);
             txb_email_cad_pess.Name = "txb_email_cad_pess";
             txb_email_cad_pess.Size = new Size(174, 27);
             txb_email_cad_pess.TabIndex = 11;
             // 
             // txb_telefone_cad_pess
             // 
-            txb_telefone_cad_pess.Location = new Point(1001, 580);
+            txb_telefone_cad_pess.Location = new Point(1080, 607);
             txb_telefone_cad_pess.Name = "txb_telefone_cad_pess";
             txb_telefone_cad_pess.Size = new Size(174, 27);
             txb_telefone_cad_pess.TabIndex = 12;
             // 
             // txb_endereco_cad_pess
             // 
-            txb_endereco_cad_pess.Location = new Point(774, 680);
+            txb_endereco_cad_pess.Location = new Point(774, 730);
             txb_endereco_cad_pess.Name = "txb_endereco_cad_pess";
             txb_endereco_cad_pess.Size = new Size(174, 27);
             txb_endereco_cad_pess.TabIndex = 14;
@@ -168,7 +168,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(764, 632);
+            label7.Location = new Point(764, 682);
             label7.Name = "label7";
             label7.Size = new Size(71, 20);
             label7.TabIndex = 13;
@@ -176,7 +176,7 @@
             // 
             // btn_cadastrar_cad_pess
             // 
-            btn_cadastrar_cad_pess.Location = new Point(774, 743);
+            btn_cadastrar_cad_pess.Location = new Point(774, 811);
             btn_cadastrar_cad_pess.Name = "btn_cadastrar_cad_pess";
             btn_cadastrar_cad_pess.Size = new Size(141, 66);
             btn_cadastrar_cad_pess.TabIndex = 15;
@@ -186,7 +186,7 @@
             // 
             // btn_sair_cad_pess
             // 
-            btn_sair_cad_pess.Location = new Point(1034, 743);
+            btn_sair_cad_pess.Location = new Point(1080, 811);
             btn_sair_cad_pess.Name = "btn_sair_cad_pess";
             btn_sair_cad_pess.Size = new Size(141, 66);
             btn_sair_cad_pess.TabIndex = 16;
@@ -204,32 +204,29 @@
             pictureBox2.TabIndex = 17;
             pictureBox2.TabStop = false;
             // 
-            // btn_voltar_cad_pess
+            // txb_senha_cad_pess
             // 
-            btn_voltar_cad_pess.Location = new Point(1208, 641);
-            btn_voltar_cad_pess.Name = "btn_voltar_cad_pess";
-            btn_voltar_cad_pess.Size = new Size(141, 66);
-            btn_voltar_cad_pess.TabIndex = 18;
-            btn_voltar_cad_pess.Text = "Voltar";
-            btn_voltar_cad_pess.UseVisualStyleBackColor = true;
-            btn_voltar_cad_pess.Click += btn_voltar_cad_pess_Click;
+            txb_senha_cad_pess.Location = new Point(1080, 730);
+            txb_senha_cad_pess.Name = "txb_senha_cad_pess";
+            txb_senha_cad_pess.Size = new Size(174, 27);
+            txb_senha_cad_pess.TabIndex = 19;
             // 
-            // lbl_resultado_cadastro
+            // label8
             // 
-            lbl_resultado_cadastro.AutoSize = true;
-            lbl_resultado_cadastro.Location = new Point(809, 850);
-            lbl_resultado_cadastro.Name = "lbl_resultado_cadastro";
-            lbl_resultado_cadastro.Size = new Size(75, 20);
-            lbl_resultado_cadastro.TabIndex = 19;
-            lbl_resultado_cadastro.Text = "Resultado";
+            label8.AutoSize = true;
+            label8.Location = new Point(1070, 682);
+            label8.Name = "label8";
+            label8.Size = new Size(195, 20);
+            label8.TabIndex = 18;
+            label8.Text = "Senha (dever ter 8 numeros)";
             // 
             // UC_Cadastrar_Pessoa
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1477, 906);
-            Controls.Add(lbl_resultado_cadastro);
-            Controls.Add(btn_voltar_cad_pess);
+            Controls.Add(txb_senha_cad_pess);
+            Controls.Add(label8);
             Controls.Add(pictureBox2);
             Controls.Add(btn_sair_cad_pess);
             Controls.Add(btn_cadastrar_cad_pess);
@@ -277,7 +274,8 @@
         private Button btn_cadastrar_cad_pess;
         private Button btn_sair_cad_pess;
         private PictureBox pictureBox2;
-        private Button btn_voltar_cad_pess;
-        private Label lbl_resultado_cadastro;
+        private TextBox textBox1;
+        private Label label8;
+        private TextBox txb_senha_cad_pess;
     }
 }

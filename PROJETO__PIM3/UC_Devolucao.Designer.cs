@@ -259,6 +259,7 @@
             Controls.Add(label1);
             Name = "UC_Devolucao";
             Size = new Size(1371, 661);
+            Load += UC_Devolucao_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();

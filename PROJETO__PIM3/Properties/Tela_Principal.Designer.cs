@@ -49,10 +49,10 @@
             label8 = new Label();
             label7 = new Label();
             pnl_principal = new Panel();
-            txb_total_emprestados_biblioteca = new TextBox();
-            txb_total_estoque_biblioteca = new TextBox();
-            txb_total_cliente_biblioteca = new TextBox();
-            txb_total_livros_biblioteca = new TextBox();
+            lbl_total_Emprestimo_tela_principal = new Label();
+            lbl_total_estoque_tela_principal = new Label();
+            lbl_total_clientes_tela_principal = new Label();
+            lbl_total_livros_tela_principal = new Label();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -319,10 +319,10 @@
             // pnl_principal
             // 
             pnl_principal.BackColor = SystemColors.ButtonHighlight;
-            pnl_principal.Controls.Add(txb_total_emprestados_biblioteca);
-            pnl_principal.Controls.Add(txb_total_estoque_biblioteca);
-            pnl_principal.Controls.Add(txb_total_cliente_biblioteca);
-            pnl_principal.Controls.Add(txb_total_livros_biblioteca);
+            pnl_principal.Controls.Add(lbl_total_Emprestimo_tela_principal);
+            pnl_principal.Controls.Add(lbl_total_estoque_tela_principal);
+            pnl_principal.Controls.Add(lbl_total_clientes_tela_principal);
+            pnl_principal.Controls.Add(lbl_total_livros_tela_principal);
             pnl_principal.Controls.Add(pictureBox4);
             pnl_principal.Controls.Add(pictureBox3);
             pnl_principal.Controls.Add(pictureBox2);
@@ -341,33 +341,45 @@
             pnl_principal.TabIndex = 2;
             pnl_principal.Paint += pnl_principal_Paint;
             // 
-            // txb_total_emprestados_biblioteca
+            // lbl_total_Emprestimo_tela_principal
             // 
-            txb_total_emprestados_biblioteca.Location = new Point(995, 521);
-            txb_total_emprestados_biblioteca.Name = "txb_total_emprestados_biblioteca";
-            txb_total_emprestados_biblioteca.Size = new Size(89, 27);
-            txb_total_emprestados_biblioteca.TabIndex = 35;
+            lbl_total_Emprestimo_tela_principal.AutoSize = true;
+            lbl_total_Emprestimo_tela_principal.BorderStyle = BorderStyle.FixedSingle;
+            lbl_total_Emprestimo_tela_principal.Location = new Point(995, 521);
+            lbl_total_Emprestimo_tela_principal.Name = "lbl_total_Emprestimo_tela_principal";
+            lbl_total_Emprestimo_tela_principal.Padding = new Padding(15, 10, 15, 10);
+            lbl_total_Emprestimo_tela_principal.Size = new Size(32, 42);
+            lbl_total_Emprestimo_tela_principal.TabIndex = 39;
             // 
-            // txb_total_estoque_biblioteca
+            // lbl_total_estoque_tela_principal
             // 
-            txb_total_estoque_biblioteca.Location = new Point(261, 521);
-            txb_total_estoque_biblioteca.Name = "txb_total_estoque_biblioteca";
-            txb_total_estoque_biblioteca.Size = new Size(89, 27);
-            txb_total_estoque_biblioteca.TabIndex = 34;
+            lbl_total_estoque_tela_principal.AutoSize = true;
+            lbl_total_estoque_tela_principal.BorderStyle = BorderStyle.FixedSingle;
+            lbl_total_estoque_tela_principal.Location = new Point(261, 521);
+            lbl_total_estoque_tela_principal.Name = "lbl_total_estoque_tela_principal";
+            lbl_total_estoque_tela_principal.Padding = new Padding(15, 10, 15, 10);
+            lbl_total_estoque_tela_principal.Size = new Size(32, 42);
+            lbl_total_estoque_tela_principal.TabIndex = 38;
             // 
-            // txb_total_cliente_biblioteca
+            // lbl_total_clientes_tela_principal
             // 
-            txb_total_cliente_biblioteca.Location = new Point(992, 181);
-            txb_total_cliente_biblioteca.Name = "txb_total_cliente_biblioteca";
-            txb_total_cliente_biblioteca.Size = new Size(89, 27);
-            txb_total_cliente_biblioteca.TabIndex = 33;
+            lbl_total_clientes_tela_principal.AutoSize = true;
+            lbl_total_clientes_tela_principal.BorderStyle = BorderStyle.FixedSingle;
+            lbl_total_clientes_tela_principal.Location = new Point(995, 179);
+            lbl_total_clientes_tela_principal.Name = "lbl_total_clientes_tela_principal";
+            lbl_total_clientes_tela_principal.Padding = new Padding(15, 10, 15, 10);
+            lbl_total_clientes_tela_principal.Size = new Size(32, 42);
+            lbl_total_clientes_tela_principal.TabIndex = 37;
             // 
-            // txb_total_livros_biblioteca
+            // lbl_total_livros_tela_principal
             // 
-            txb_total_livros_biblioteca.Location = new Point(256, 181);
-            txb_total_livros_biblioteca.Name = "txb_total_livros_biblioteca";
-            txb_total_livros_biblioteca.Size = new Size(89, 27);
-            txb_total_livros_biblioteca.TabIndex = 32;
+            lbl_total_livros_tela_principal.AutoSize = true;
+            lbl_total_livros_tela_principal.BorderStyle = BorderStyle.FixedSingle;
+            lbl_total_livros_tela_principal.Location = new Point(261, 179);
+            lbl_total_livros_tela_principal.Name = "lbl_total_livros_tela_principal";
+            lbl_total_livros_tela_principal.Padding = new Padding(15, 10, 15, 10);
+            lbl_total_livros_tela_principal.Size = new Size(32, 42);
+            lbl_total_livros_tela_principal.TabIndex = 36;
             // 
             // pictureBox4
             // 
@@ -560,5 +572,13 @@
         private TextBox txb_total_livros_biblioteca;
         private TextBox txb_total_emprestados_biblioteca;
         private TextBox txb_total_estoque_biblioteca;
+        private Label label19;
+        private Label label22;
+        private Label label21;
+        private Label label20;
+        private Label lbl_total_estoque_tela_principal;
+        private Label lbl_total_livros_tela_principal;
+        private Label lbl_total_Emprestimo_tela_principal;
+        private Label lbl_total_clientes_tela_principal;
     }
 }

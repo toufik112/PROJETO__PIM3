@@ -239,6 +239,7 @@
             Controls.Add(label1);
             Name = "UC_Emprestimo";
             Size = new Size(1371, 661);
+            Load += UC_Emprestimo_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();

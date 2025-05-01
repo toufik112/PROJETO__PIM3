@@ -16,5 +16,15 @@ namespace PROJETO__PIM3
         {
             InitializeComponent();
         }
+
+        private void UC_Estoque_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

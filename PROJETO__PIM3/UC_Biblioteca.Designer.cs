@@ -220,6 +220,7 @@
             Controls.Add(label1);
             Name = "UC_Biblioteca";
             Size = new Size(1371, 661);
+            Load += UC_Biblioteca_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

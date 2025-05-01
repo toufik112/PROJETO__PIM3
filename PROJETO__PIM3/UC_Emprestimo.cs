@@ -17,7 +17,7 @@ namespace PROJETO__PIM3
             InitializeComponent();
         }
 
-        
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -57,6 +57,11 @@ namespace PROJETO__PIM3
                 }
 
             }
+
+        }
+
+        private void UC_Emprestimo_Load(object sender, EventArgs e)
+        {
 
         }
     }

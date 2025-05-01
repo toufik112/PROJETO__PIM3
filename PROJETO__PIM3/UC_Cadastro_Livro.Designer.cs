@@ -277,6 +277,7 @@
             Controls.Add(label1);
             Name = "UC_Cadastro_Livro";
             Size = new Size(1371, 661);
+            Load += UC_Cadastro_Livro_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

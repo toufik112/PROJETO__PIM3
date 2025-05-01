@@ -50,7 +50,7 @@
             txb_email = new TextBox();
             pictureBox1 = new PictureBox();
             label10 = new Label();
-            comboBox1 = new ComboBox();
+            cmbx_sexo_uc_cadastro_cliente = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -233,21 +233,21 @@
             label10.TabIndex = 70;
             label10.Text = "Cadastro de Cliente";
             // 
-            // comboBox1
+            // cmbx_sexo_uc_cadastro_cliente
             // 
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Masculino", "Feminino" });
-            comboBox1.Location = new Point(976, 330);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(146, 28);
-            comboBox1.TabIndex = 72;
+            cmbx_sexo_uc_cadastro_cliente.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbx_sexo_uc_cadastro_cliente.FormattingEnabled = true;
+            cmbx_sexo_uc_cadastro_cliente.Items.AddRange(new object[] { "Masculino", "Feminino" });
+            cmbx_sexo_uc_cadastro_cliente.Location = new Point(976, 330);
+            cmbx_sexo_uc_cadastro_cliente.Name = "cmbx_sexo_uc_cadastro_cliente";
+            cmbx_sexo_uc_cadastro_cliente.Size = new Size(146, 28);
+            cmbx_sexo_uc_cadastro_cliente.TabIndex = 72;
             // 
             // UC_Cadastro_Cliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(comboBox1);
+            Controls.Add(cmbx_sexo_uc_cadastro_cliente);
             Controls.Add(pictureBox1);
             Controls.Add(label10);
             Controls.Add(txb_email);
@@ -271,6 +271,7 @@
             Controls.Add(label1);
             Name = "UC_Cadastro_Cliente";
             Size = new Size(1371, 661);
+            Load += UC_Cadastro_Cliente_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -301,5 +302,6 @@
         private Label label10;
         private ComboBox comboBox1;
         private ComboBox comboBox2;
+        private ComboBox cmbx_sexo_uc_cadastro_cliente;
     }
 }

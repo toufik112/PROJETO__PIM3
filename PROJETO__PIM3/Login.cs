@@ -1,26 +1,26 @@
-using PROJETO__PIM3.Properties;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+
+    using PROJETO__PIM3.Properties;
 
 namespace PROJETO__PIM3
 {
     public partial class Login : Form
     {
-
-        public string NomeUsuario { get; set; }
-        public string Senha { get; set; }
-
-
-
-
-        public Login(string nomeUsuario, string senha)
+        public Login()
         {
             InitializeComponent();
 
-            NomeUsuario = nomeUsuario;
-            Senha = senha;
-
-            
         }
-
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -32,11 +32,15 @@ namespace PROJETO__PIM3
 
         private void button2_Click(object sender, EventArgs e)
         {
-         
-            Tela_Principal tela_Principal = new Tela_Principal();
-            tela_Principal.Show(); 
-            this.Hide();
-            //this.Close();
+            ValidarCampos();
+
+
+
+
+          //  Tela_Usuario tela_Usuario = new Tela_Usuario();
+          //tela_Usuario.Show(); 
+          //this.Hide();
+
         }
 
            /* string UserName = txb_user_name.Text;
@@ -56,23 +60,6 @@ namespace PROJETO__PIM3
             }*/
 
 
-
-
-
-
-
-
-            //Tela_Principal tela_Principal = new Tela_Principal();
-            //tela_Principal.TopLevel = false;
-            // tela_Principal.FormBorderStyle = FormBorderStyle.None;
-            // tela_Principal.Dock = DockStyle.Fill;
-            // tela_Principal.ShowDialog();
-            // pnl_principal.Control.Add(UC_Biblioteca);
-            // UC_Biblioteca.Show();
-            // UC_biblioteca.ShowDialog();
-
-        
-
         private void Login_Load(object sender, EventArgs e)
         {
 
@@ -87,6 +74,44 @@ namespace PROJETO__PIM3
         private void txb_senha_TextChanged(object sender, EventArgs e)
         {
            
+        }
+        private void ValidarCampos()
+        {
+
+            // Nome completo
+            if (string.IsNullOrWhiteSpace(txb_user_name.Text) || Regex.IsMatch(txb_user_name.Text, @"[^a-zA-Z\s]"))
+            {
+                MessageBox.Show("Nome do Usuario inválido.");
+                return;
+            }
+
+            // Senha
+            string Senha = txb_senha_Login.Text.Trim();
+            if (!Regex.IsMatch(Senha, @"^\d{8}$"))
+            {
+                MessageBox.Show("Senha deve conter exatamente 8 números.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txb_codigo_funcionario_login.Text))
+            {
+                MessageBox.Show("Login realizado com sucesso!");
+                Tela_Usuario tela_Usuario = new Tela_Usuario();
+                tela_Usuario.Show();
+                this.Hide();
+            }
+            else if (txb_codigo_funcionario_login.Text == "#123")
+            {
+                MessageBox.Show("Login realizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Tela_Principal tela_Principal = new Tela_Principal();
+                tela_Principal.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Código de funcionário está errado! Tente novamente.");
+            }
+
         }
     }
 }

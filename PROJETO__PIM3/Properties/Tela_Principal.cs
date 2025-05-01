@@ -12,17 +12,14 @@ namespace PROJETO__PIM3.Properties
 {
     public partial class Tela_Principal : Form
     {
-        public string TotaLivros { get; set; }
-        public string TotaCliente { get; set; }
-        public string TotaEmprestimo { get; set; }
-        public string TotaEstoque { get; set; }
+        
 
         public Tela_Principal()
         {
             InitializeComponent();
 
         }
-        
+
         private void label7_Click(object sender, EventArgs e)
         {
 
@@ -55,7 +52,7 @@ namespace PROJETO__PIM3.Properties
 
         private void Tela_Principal_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void lbl_cadasteo_livros_Click(object sender, EventArgs e)
@@ -95,5 +92,7 @@ namespace PROJETO__PIM3.Properties
         {
             this.Close();
         }
+
+
     }
 }

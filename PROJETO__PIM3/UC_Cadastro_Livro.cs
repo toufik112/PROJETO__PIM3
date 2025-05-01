@@ -12,10 +12,17 @@ namespace PROJETO__PIM3
 {
     public partial class UC_Cadastro_Livro : UserControl
     {
+        public string Titulo { get; set; }
+        public string Autor { get; set; }
+        public string Ctegoria { get; set; }
+        public string AnoPublicacao { get; set; }
+
+
         public UC_Cadastro_Livro()
         {
             InitializeComponent();
         }
+
         public void Cadastrar()
         {
             DialogResult resposta = MessageBox.Show("Quer cadastrar nove Livro?", "Cadastrar", MessageBoxButtons.YesNo);
@@ -46,7 +53,7 @@ namespace PROJETO__PIM3
                     }
                     else if (c is ComboBox)
                     {
-                        
+
                     }
 
 
@@ -63,15 +70,20 @@ namespace PROJETO__PIM3
         {
             Cancelar();
 
-            }
-        
+        }
+
 
         private void btn_cadastrar_Click(object sender, EventArgs e)
         {
-           
+
             {
                 Cadastrar();
             }
+
+        }
+
+        private void UC_Cadastro_Livro_Load(object sender, EventArgs e)
+        {
 
         }
     }

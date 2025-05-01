@@ -12,13 +12,17 @@ namespace PROJETO__PIM3
 {
     public partial class UC_Cadastro_Cliente : UserControl
     {
+
         public UC_Cadastro_Cliente()
         {
+           
             InitializeComponent();
         }
 
         private void btn_cadastrar_Click(object sender, EventArgs e)
         {
+            
+
             DialogResult resposta = MessageBox.Show("Quer cadastrar nove cliente?", "Cadastrar", MessageBoxButtons.YesNo);
             if (resposta == DialogResult.Yes)
             {
@@ -40,7 +44,7 @@ namespace PROJETO__PIM3
             DialogResult resposta = MessageBox.Show("Quer mesmo cancelar", "Cancelar", MessageBoxButtons.YesNo);
             if (resposta == DialogResult.Yes)
             {
-              
+
                 foreach (Control c in this.Controls)
                 {
                     if (c is TextBox)
@@ -49,16 +53,21 @@ namespace PROJETO__PIM3
                     }
                     if (c is ComboBox)
                     {
-                        
-                        
+
+
                     }
-                    
+
 
 
                 }
 
             }
-           
+
+        }
+
+        private void UC_Cadastro_Cliente_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

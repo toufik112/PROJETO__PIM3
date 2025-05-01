@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "at9l+b/0uA4=",
+  "dgSpecHash": "D1UH6bwchCg=",
   "success": true,
   "projectFilePath": "C:\\Users\\toufi\\Documents\\PROJETO__PIM3\\PROJETO__PIM3\\PROJETO__PIM3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\toufi\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
+    "C:\\Users\\toufi\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\toufi\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
