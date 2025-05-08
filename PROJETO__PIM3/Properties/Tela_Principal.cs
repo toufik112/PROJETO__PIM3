@@ -20,6 +20,9 @@ namespace PROJETO__PIM3.Properties
 
         }
 
+        List<UC_Cadastro_Livro> livros = new List<UC_Cadastro_Livro>();
+
+
         private void label7_Click(object sender, EventArgs e)
         {
 
@@ -41,7 +44,7 @@ namespace PROJETO__PIM3.Properties
         {
             pnl_principal.Controls.Clear();
             UC_Biblioteca uC_Biblioteca = new UC_Biblioteca();
-            Tela_Principal tela_Principal = new Tela_Principal();
+           // Tela_Principal tela_Principal = new Tela_Principal();
             pnl_principal.Controls.Add(uC_Biblioteca);
         }
 
@@ -83,7 +86,7 @@ namespace PROJETO__PIM3.Properties
         private void lbl_estoque_Click(object sender, EventArgs e)
         {
             pnl_principal.Controls.Clear();
-            UC_Estoque uC_Estoque = new UC_Estoque();
+            UCEstoque uC_Estoque = new UCEstoque();
             Tela_Principal tela_Principal = new Tela_Principal();
             pnl_principal.Controls.Add(uC_Estoque);
         }

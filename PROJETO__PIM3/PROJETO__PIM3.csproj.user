@@ -7,7 +7,10 @@
     <Compile Update="Telas_Usuario\UC_Biblioteca_Usuario.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Telas_Usuario\UC_Categorias_Usuario.cs">
+    <Compile Update="Telas_Usuario\UC_Livros_desponiveis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas_Usuario\UC_Top_Brasileiros.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Tela_Usuario.cs">

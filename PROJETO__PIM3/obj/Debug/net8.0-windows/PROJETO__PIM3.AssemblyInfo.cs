@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PROJETO__PIM3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22d7c05199ac6fd15e2886a14f2251353f247394")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d342fe744cc62fba89975e74032b0915853c4df0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PROJETO__PIM3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PROJETO__PIM3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

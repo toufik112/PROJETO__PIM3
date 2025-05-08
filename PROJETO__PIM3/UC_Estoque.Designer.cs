@@ -1,6 +1,6 @@
 ﻿namespace PROJETO__PIM3
 {
-    partial class UC_Estoque
+    partial class UCEstoque
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Estoque));
-            dataGridView1 = new DataGridView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCEstoque));
+            dtgr_estoque = new DataGridView();
             IdLivro = new DataGridViewTextBoxColumn();
             TituloDeLIvro = new DataGridViewTextBoxColumn();
             Categoria = new DataGridViewTextBoxColumn();
@@ -38,20 +38,21 @@
             AnoDePublicacao = new DataGridViewTextBoxColumn();
             pictureBox1 = new PictureBox();
             label4 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dtgr_estoque).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dtgr_estoque
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { IdLivro, TituloDeLIvro, Categoria, Autor, Editora, AnoDePublicacao });
-            dataGridView1.Location = new Point(0, 149);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1371, 512);
-            dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dtgr_estoque.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgr_estoque.Columns.AddRange(new DataGridViewColumn[] { IdLivro, TituloDeLIvro, Categoria, Autor, Editora, AnoDePublicacao });
+            dtgr_estoque.Location = new Point(0, 130);
+            dtgr_estoque.Name = "dtgr_estoque";
+            dtgr_estoque.ReadOnly = true;
+            dtgr_estoque.RowHeadersWidth = 51;
+            dtgr_estoque.Size = new Size(1371, 531);
+            dtgr_estoque.TabIndex = 0;
+            dtgr_estoque.CellContentClick += dataGridView1_CellContentClick;
             // 
             // IdLivro
             // 
@@ -68,6 +69,7 @@
             TituloDeLIvro.HeaderText = "Titulo de Livro";
             TituloDeLIvro.MinimumWidth = 6;
             TituloDeLIvro.Name = "TituloDeLIvro";
+            TituloDeLIvro.ReadOnly = true;
             TituloDeLIvro.Width = 318;
             // 
             // Categoria
@@ -75,6 +77,7 @@
             Categoria.HeaderText = "Categoria";
             Categoria.MinimumWidth = 6;
             Categoria.Name = "Categoria";
+            Categoria.ReadOnly = true;
             Categoria.Width = 200;
             // 
             // Autor
@@ -82,6 +85,7 @@
             Autor.HeaderText = "Autor";
             Autor.MinimumWidth = 6;
             Autor.Name = "Autor";
+            Autor.ReadOnly = true;
             Autor.Width = 300;
             // 
             // Editora
@@ -89,6 +93,7 @@
             Editora.HeaderText = "Editora";
             Editora.MinimumWidth = 6;
             Editora.Name = "Editora";
+            Editora.ReadOnly = true;
             Editora.Width = 300;
             // 
             // AnoDePublicacao
@@ -96,6 +101,7 @@
             AnoDePublicacao.HeaderText = "Ano de Publicaçao";
             AnoDePublicacao.MinimumWidth = 6;
             AnoDePublicacao.Name = "AnoDePublicacao";
+            AnoDePublicacao.ReadOnly = true;
             AnoDePublicacao.Width = 125;
             // 
             // pictureBox1
@@ -124,11 +130,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(pictureBox1);
             Controls.Add(label4);
-            Controls.Add(dataGridView1);
+            Controls.Add(dtgr_estoque);
             Name = "UC_Estoque";
             Size = new Size(1371, 661);
             Load += UC_Estoque_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dtgr_estoque).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -136,7 +142,7 @@
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dtgr_estoque;
         private DataGridViewTextBoxColumn IdLivro;
         private DataGridViewTextBoxColumn TituloDeLIvro;
         private DataGridViewTextBoxColumn Categoria;

@@ -63,6 +63,26 @@ namespace PROJETO__PIM3.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1918bbec_a10b_4dd4_860b_99d4b63335ea {
+            get {
+                object obj = ResourceManager.GetObject("1918bbec-a10b-4dd4-860b-99d4b63335ea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap A_Coragem_de_Ser_Imperfeito {
+            get {
+                object obj = ResourceManager.GetObject("A Coragem de Ser Imperfeito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bookcase {
             get {
                 object obj = ResourceManager.GetObject("bookcase", resourceCulture);
@@ -86,6 +106,16 @@ namespace PROJETO__PIM3.Properties {
         internal static System.Drawing.Bitmap bookshelf {
             get {
                 object obj = ResourceManager.GetObject("bookshelf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Capa_de_Macunaíma_2 {
+            get {
+                object obj = ResourceManager.GetObject("Capa_de_Macunaíma_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

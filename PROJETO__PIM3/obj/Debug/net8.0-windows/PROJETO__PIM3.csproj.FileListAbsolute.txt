@@ -33,3 +33,5 @@ C:\Users\toufi\Documents\PROJETO__PIM3\PROJETO__PIM3\bin\Debug\net8.0-windows\Gu
 C:\Users\toufi\Documents\PROJETO__PIM3\PROJETO__PIM3\bin\Debug\net8.0-windows\System.Management.dll
 C:\Users\toufi\Documents\PROJETO__PIM3\PROJETO__PIM3\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\toufi\Documents\PROJETO__PIM3\PROJETO__PIM3\obj\Debug\net8.0-windows\PROJETO_.60E3EE61.Up2Date
+C:\Users\toufi\Documents\PROJETO__PIM3\PROJETO__PIM3\obj\Debug\net8.0-windows\PROJETO__PIM3.Telas_Usuario.UC_Livros_desponiveis.resources
+C:\Users\toufi\Documents\PROJETO__PIM3\PROJETO__PIM3\obj\Debug\net8.0-windows\PROJETO__PIM3.Telas_Usuario.UC_Top_Brasileiros.resources

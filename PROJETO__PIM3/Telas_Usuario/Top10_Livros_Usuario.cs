@@ -21,5 +21,10 @@ namespace PROJETO__PIM3.Telas_Usuario
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
